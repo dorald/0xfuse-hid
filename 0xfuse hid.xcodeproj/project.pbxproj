@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF29E63613ECAD10000567E3 /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF29E63513ECAD10000567E3 /* wallpaper.jpg */; };
 		CFD4869D13ECA3DD00627A5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4869C13ECA3DD00627A5C /* Cocoa.framework */; };
 		CFD486A713ECA3DD00627A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD486A513ECA3DD00627A5C /* InfoPlist.strings */; };
 		CFD486AA13ECA3DD00627A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD486A913ECA3DD00627A5C /* main.m */; };
@@ -16,10 +17,10 @@
 		CFD486D313ECA4A900627A5C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD486D213ECA4A900627A5C /* IOKit.framework */; };
 		CFD486D513ECA4B500627A5C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD486D413ECA4B500627A5C /* CoreData.framework */; };
 		CFD486D713ECA4B900627A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD486D613ECA4B900627A5C /* Foundation.framework */; };
-		CFD486D913ECA4CE00627A5C /* Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD486D813ECA4CE00627A5C /* Wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF29E63513ECAD10000567E3 /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
 		CFD4869813ECA3DD00627A5C /* 0xfuse hid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0xfuse hid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD4869C13ECA3DD00627A5C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CFD4869F13ECA3DD00627A5C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -41,7 +42,6 @@
 		CFD486D213ECA4A900627A5C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		CFD486D413ECA4B500627A5C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CFD486D613ECA4B900627A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CFD486D813ECA4CE00627A5C /* Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wallpaper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 		CFD486A213ECA3DD00627A5C /* 0xfuse hid */ = {
 			isa = PBXGroup;
 			children = (
-				CFD486D813ECA4CE00627A5C /* Wallpaper.jpg */,
+				CF29E63513ECAD10000567E3 /* wallpaper.jpg */,
 				CFD486AE13ECA3DD00627A5C /* _xfuse_hidAppDelegate.h */,
 				CFD486AF13ECA3DD00627A5C /* _xfuse_hidAppDelegate.m */,
 				CFD486D013ECA40700627A5C /* MainMenu.xib */,
@@ -193,7 +193,7 @@
 				CFD486A713ECA3DD00627A5C /* InfoPlist.strings in Resources */,
 				CFD486AD13ECA3DD00627A5C /* Credits.rtf in Resources */,
 				CFD486D113ECA40700627A5C /* MainMenu.xib in Resources */,
-				CFD486D913ECA4CE00627A5C /* Wallpaper.jpg in Resources */,
+				CF29E63613ECAD10000567E3 /* wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +320,7 @@
 				CFD486CC13ECA3DE00627A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
