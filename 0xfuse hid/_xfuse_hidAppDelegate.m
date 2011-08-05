@@ -159,7 +159,7 @@ static void unplug_callback(void *hid, IOReturn ret, void *ref)
     
     [state setTextColor:[NSColor colorWithDeviceRed:00 green:0xff blue:0 alpha:1]];
     
-    NSImage *wallpaper = [NSImage imageNamed:@"Wallpaper.jpg"];
+    NSImage *wallpaper = [NSImage imageNamed:@"background.jpg"];
     [wallpaper setSize:CGSizeMake(200, 140)];
     NSColor *background = [NSColor colorWithPatternImage:wallpaper];
     [window setBackgroundColor:background];
