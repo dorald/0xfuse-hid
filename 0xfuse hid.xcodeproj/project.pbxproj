@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD4869D13ECA3DD00627A5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4869C13ECA3DD00627A5C /* Cocoa.framework */; };
+		CFD486A713ECA3DD00627A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD486A513ECA3DD00627A5C /* InfoPlist.strings */; };
+		CFD486AA13ECA3DD00627A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD486A913ECA3DD00627A5C /* main.m */; };
+		CFD486AD13ECA3DD00627A5C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CFD486AB13ECA3DD00627A5C /* Credits.rtf */; };
+		CFD486B013ECA3DD00627A5C /* _xfuse_hidAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD486AF13ECA3DD00627A5C /* _xfuse_hidAppDelegate.m */; };
+		CFD486B313ECA3DE00627A5C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD486B113ECA3DE00627A5C /* MainMenu.xib */; };
+		CFD486BA13ECA3DE00627A5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4869C13ECA3DD00627A5C /* Cocoa.framework */; };
+		CFD486C213ECA3DE00627A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD486C013ECA3DE00627A5C /* InfoPlist.strings */; };
+		CFD486C513ECA3DE00627A5C /* _xfuse_hidTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CFD486C413ECA3DE00627A5C /* _xfuse_hidTests.h */; };
+		CFD486C713ECA3DE00627A5C /* _xfuse_hidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD486C613ECA3DE00627A5C /* _xfuse_hidTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD486BB13ECA3DE00627A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD4868F13ECA3DD00627A5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD4869713ECA3DD00627A5C;
+			remoteInfo = "0xfuse hid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFD4869813ECA3DD00627A5C /* 0xfuse hid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0xfuse hid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD4869C13ECA3DD00627A5C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CFD4869F13ECA3DD00627A5C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CFD486A013ECA3DD00627A5C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFD486A113ECA3DD00627A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFD486A413ECA3DD00627A5C /* 0xfuse hid-Info.plist */ = {isa = PBXFileReference; path = "0xfuse hid-Info.plist"; sourceTree = "<group>"; };
+		CFD486A613ECA3DD00627A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD486A813ECA3DD00627A5C /* 0xfuse hid-Prefix.pch */ = {isa = PBXFileReference; path = "0xfuse hid-Prefix.pch"; sourceTree = "<group>"; };
+		CFD486A913ECA3DD00627A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFD486AC13ECA3DD00627A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CFD486AE13ECA3DD00627A5C /* _xfuse_hidAppDelegate.h */ = {isa = PBXFileReference; path = _xfuse_hidAppDelegate.h; sourceTree = "<group>"; };
+		CFD486AF13ECA3DD00627A5C /* _xfuse_hidAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _xfuse_hidAppDelegate.m; sourceTree = "<group>"; };
+		CFD486B213ECA3DE00627A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CFD486B913ECA3DE00627A5C /* 0xfuse hidTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0xfuse hidTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD486BF13ECA3DE00627A5C /* 0xfuse hidTests-Info.plist */ = {isa = PBXFileReference; path = "0xfuse hidTests-Info.plist"; sourceTree = "<group>"; };
+		CFD486C113ECA3DE00627A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD486C313ECA3DE00627A5C /* 0xfuse hidTests-Prefix.pch */ = {isa = PBXFileReference; path = "0xfuse hidTests-Prefix.pch"; sourceTree = "<group>"; };
+		CFD486C413ECA3DE00627A5C /* _xfuse_hidTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _xfuse_hidTests.h; sourceTree = "<group>"; };
+		CFD486C613ECA3DE00627A5C /* _xfuse_hidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _xfuse_hidTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD4869513ECA3DD00627A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD4869D13ECA3DD00627A5C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD486B513ECA3DE00627A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486BA13ECA3DE00627A5C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD4868D13ECA3DD00627A5C = {
+			isa = PBXGroup;
+			children = (
+				CFD486A213ECA3DD00627A5C /* 0xfuse hid */,
+				CFD486BD13ECA3DE00627A5C /* 0xfuse hidTests */,
+				CFD4869B13ECA3DD00627A5C /* Frameworks */,
+				CFD4869913ECA3DD00627A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD4869913ECA3DD00627A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4869813ECA3DD00627A5C /* 0xfuse hid.app */,
+				CFD486B913ECA3DE00627A5C /* 0xfuse hidTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD4869B13ECA3DD00627A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4869C13ECA3DD00627A5C /* Cocoa.framework */,
+				CFD4869E13ECA3DD00627A5C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFD4869E13ECA3DD00627A5C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4869F13ECA3DD00627A5C /* AppKit.framework */,
+				CFD486A013ECA3DD00627A5C /* CoreData.framework */,
+				CFD486A113ECA3DD00627A5C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CFD486A213ECA3DD00627A5C /* 0xfuse hid */ = {
+			isa = PBXGroup;
+			children = (
+				CFD486AE13ECA3DD00627A5C /* _xfuse_hidAppDelegate.h */,
+				CFD486AF13ECA3DD00627A5C /* _xfuse_hidAppDelegate.m */,
+				CFD486B113ECA3DE00627A5C /* MainMenu.xib */,
+				CFD486A313ECA3DD00627A5C /* Supporting Files */,
+			);
+			path = "0xfuse hid";
+			sourceTree = "<group>";
+		};
+		CFD486A313ECA3DD00627A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD486A413ECA3DD00627A5C /* 0xfuse hid-Info.plist */,
+				CFD486A513ECA3DD00627A5C /* InfoPlist.strings */,
+				CFD486A813ECA3DD00627A5C /* 0xfuse hid-Prefix.pch */,
+				CFD486A913ECA3DD00627A5C /* main.m */,
+				CFD486AB13ECA3DD00627A5C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFD486BD13ECA3DE00627A5C /* 0xfuse hidTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD486C413ECA3DE00627A5C /* _xfuse_hidTests.h */,
+				CFD486C613ECA3DE00627A5C /* _xfuse_hidTests.m */,
+				CFD486BE13ECA3DE00627A5C /* Supporting Files */,
+			);
+			path = "0xfuse hidTests";
+			sourceTree = "<group>";
+		};
+		CFD486BE13ECA3DE00627A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD486BF13ECA3DE00627A5C /* 0xfuse hidTests-Info.plist */,
+				CFD486C013ECA3DE00627A5C /* InfoPlist.strings */,
+				CFD486C313ECA3DE00627A5C /* 0xfuse hidTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD4869713ECA3DD00627A5C /* 0xfuse hid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD486CA13ECA3DE00627A5C /* Build configuration list for PBXNativeTarget "0xfuse hid" */;
+			buildPhases = (
+				CFD4869413ECA3DD00627A5C /* Sources */,
+				CFD4869513ECA3DD00627A5C /* Frameworks */,
+				CFD4869613ECA3DD00627A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0xfuse hid";
+			productName = "0xfuse hid";
+			productReference = CFD4869813ECA3DD00627A5C /* 0xfuse hid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD486B813ECA3DE00627A5C /* 0xfuse hidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD486CD13ECA3DE00627A5C /* Build configuration list for PBXNativeTarget "0xfuse hidTests" */;
+			buildPhases = (
+				CFD486B413ECA3DE00627A5C /* Sources */,
+				CFD486B513ECA3DE00627A5C /* Frameworks */,
+				CFD486B613ECA3DE00627A5C /* Resources */,
+				CFD486B713ECA3DE00627A5C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD486BC13ECA3DE00627A5C /* PBXTargetDependency */,
+			);
+			name = "0xfuse hidTests";
+			productName = "0xfuse hidTests";
+			productReference = CFD486B913ECA3DE00627A5C /* 0xfuse hidTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD4868F13ECA3DD00627A5C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CFD4869213ECA3DD00627A5C /* Build configuration list for PBXProject "0xfuse hid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFD4868D13ECA3DD00627A5C;
+			productRefGroup = CFD4869913ECA3DD00627A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD4869713ECA3DD00627A5C /* 0xfuse hid */,
+				CFD486B813ECA3DE00627A5C /* 0xfuse hidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD4869613ECA3DD00627A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486A713ECA3DD00627A5C /* InfoPlist.strings in Resources */,
+				CFD486AD13ECA3DD00627A5C /* Credits.rtf in Resources */,
+				CFD486B313ECA3DE00627A5C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD486B613ECA3DE00627A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486C213ECA3DE00627A5C /* InfoPlist.strings in Resources */,
+				CFD486C513ECA3DE00627A5C /* _xfuse_hidTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFD486B713ECA3DE00627A5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD4869413ECA3DD00627A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486AA13ECA3DD00627A5C /* main.m in Sources */,
+				CFD486B013ECA3DD00627A5C /* _xfuse_hidAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD486B413ECA3DE00627A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486C713ECA3DE00627A5C /* _xfuse_hidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD486BC13ECA3DE00627A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD4869713ECA3DD00627A5C /* 0xfuse hid */;
+			targetProxy = CFD486BB13ECA3DE00627A5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFD486A513ECA3DD00627A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD486A613ECA3DD00627A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFD486AB13ECA3DD00627A5C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD486AC13ECA3DD00627A5C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CFD486B113ECA3DE00627A5C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD486B213ECA3DE00627A5C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CFD486C013ECA3DE00627A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD486C113ECA3DE00627A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD486C813ECA3DE00627A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFD486C913ECA3DE00627A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFD486CB13ECA3DE00627A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "0xfuse hid/0xfuse hid-Prefix.pch";
+				INFOPLIST_FILE = "0xfuse hid/0xfuse hid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFD486CC13ECA3DE00627A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "0xfuse hid/0xfuse hid-Prefix.pch";
+				INFOPLIST_FILE = "0xfuse hid/0xfuse hid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFD486CE13ECA3DE00627A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/0xfuse hid.app/Contents/MacOS/0xfuse hid";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "0xfuse hidTests/0xfuse hidTests-Prefix.pch";
+				INFOPLIST_FILE = "0xfuse hidTests/0xfuse hidTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CFD486CF13ECA3DE00627A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/0xfuse hid.app/Contents/MacOS/0xfuse hid";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "0xfuse hidTests/0xfuse hidTests-Prefix.pch";
+				INFOPLIST_FILE = "0xfuse hidTests/0xfuse hidTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD4869213ECA3DD00627A5C /* Build configuration list for PBXProject "0xfuse hid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD486C813ECA3DE00627A5C /* Debug */,
+				CFD486C913ECA3DE00627A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD486CA13ECA3DE00627A5C /* Build configuration list for PBXNativeTarget "0xfuse hid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD486CB13ECA3DE00627A5C /* Debug */,
+				CFD486CC13ECA3DE00627A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFD486CD13ECA3DE00627A5C /* Build configuration list for PBXNativeTarget "0xfuse hidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD486CE13ECA3DE00627A5C /* Debug */,
+				CFD486CF13ECA3DE00627A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD4868F13ECA3DD00627A5C /* Project object */;
+}

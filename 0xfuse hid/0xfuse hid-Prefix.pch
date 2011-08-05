@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '0xfuse hid' target in the '0xfuse hid' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
