@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF29E63613ECAD10000567E3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF29E63513ECAD10000567E3 /* background.jpg */; };
+		CFD4869D13ECA3DD00627A5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4869C13ECA3DD00627A5C /* Cocoa.framework */; };
+		CFD486A713ECA3DD00627A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD486A513ECA3DD00627A5C /* InfoPlist.strings */; };
+		CFD486AA13ECA3DD00627A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD486A913ECA3DD00627A5C /* main.m */; };
+		CFD486AD13ECA3DD00627A5C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CFD486AB13ECA3DD00627A5C /* Credits.rtf */; };
+		CFD486B013ECA3DD00627A5C /* _xfuse_hidAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD486AF13ECA3DD00627A5C /* _xfuse_hidAppDelegate.m */; };
+		CFD486D113ECA40700627A5C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD486D013ECA40700627A5C /* MainMenu.xib */; };
+		CFD486D313ECA4A900627A5C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD486D213ECA4A900627A5C /* IOKit.framework */; };
+		CFD486D513ECA4B500627A5C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD486D413ECA4B500627A5C /* CoreData.framework */; };
+		CFD486D713ECA4B900627A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD486D613ECA4B900627A5C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF29E63513ECAD10000567E3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		CFD4869813ECA3DD00627A5C /* 0xfuse hid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0xfuse hid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD4869C13ECA3DD00627A5C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CFD4869F13ECA3DD00627A5C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CFD486A013ECA3DD00627A5C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFD486A113ECA3DD00627A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFD486A413ECA3DD00627A5C /* 0xfuse hid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "0xfuse hid-Info.plist"; sourceTree = "<group>"; };
+		CFD486A613ECA3DD00627A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD486A813ECA3DD00627A5C /* 0xfuse hid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "0xfuse hid-Prefix.pch"; sourceTree = "<group>"; };
+		CFD486A913ECA3DD00627A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFD486AC13ECA3DD00627A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CFD486AE13ECA3DD00627A5C /* _xfuse_hidAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _xfuse_hidAppDelegate.h; sourceTree = "<group>"; };
+		CFD486AF13ECA3DD00627A5C /* _xfuse_hidAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _xfuse_hidAppDelegate.m; sourceTree = "<group>"; };
+		CFD486D013ECA40700627A5C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CFD486D213ECA4A900627A5C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		CFD486D413ECA4B500627A5C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFD486D613ECA4B900627A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD4869513ECA3DD00627A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486D713ECA4B900627A5C /* Foundation.framework in Frameworks */,
+				CFD486D513ECA4B500627A5C /* CoreData.framework in Frameworks */,
+				CFD486D313ECA4A900627A5C /* IOKit.framework in Frameworks */,
+				CFD4869D13ECA3DD00627A5C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD4868D13ECA3DD00627A5C = {
+			isa = PBXGroup;
+			children = (
+				CFD486A213ECA3DD00627A5C /* 0xfuse hid */,
+				CFD4869B13ECA3DD00627A5C /* Frameworks */,
+				CFD4869913ECA3DD00627A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD4869913ECA3DD00627A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4869813ECA3DD00627A5C /* 0xfuse hid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD4869B13ECA3DD00627A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD486D613ECA4B900627A5C /* Foundation.framework */,
+				CFD486D413ECA4B500627A5C /* CoreData.framework */,
+				CFD486D213ECA4A900627A5C /* IOKit.framework */,
+				CFD4869C13ECA3DD00627A5C /* Cocoa.framework */,
+				CFD4869E13ECA3DD00627A5C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFD4869E13ECA3DD00627A5C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4869F13ECA3DD00627A5C /* AppKit.framework */,
+				CFD486A013ECA3DD00627A5C /* CoreData.framework */,
+				CFD486A113ECA3DD00627A5C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CFD486A213ECA3DD00627A5C /* 0xfuse hid */ = {
+			isa = PBXGroup;
+			children = (
+				CF29E63513ECAD10000567E3 /* background.jpg */,
+				CFD486AE13ECA3DD00627A5C /* _xfuse_hidAppDelegate.h */,
+				CFD486AF13ECA3DD00627A5C /* _xfuse_hidAppDelegate.m */,
+				CFD486D013ECA40700627A5C /* MainMenu.xib */,
+				CFD486A313ECA3DD00627A5C /* Supporting Files */,
+			);
+			path = "0xfuse hid";
+			sourceTree = "<group>";
+		};
+		CFD486A313ECA3DD00627A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD486A413ECA3DD00627A5C /* 0xfuse hid-Info.plist */,
+				CFD486A513ECA3DD00627A5C /* InfoPlist.strings */,
+				CFD486A813ECA3DD00627A5C /* 0xfuse hid-Prefix.pch */,
+				CFD486A913ECA3DD00627A5C /* main.m */,
+				CFD486AB13ECA3DD00627A5C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD4869713ECA3DD00627A5C /* 0xfuse hid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD486CA13ECA3DE00627A5C /* Build configuration list for PBXNativeTarget "0xfuse hid" */;
+			buildPhases = (
+				CFD4869413ECA3DD00627A5C /* Sources */,
+				CFD4869513ECA3DD00627A5C /* Frameworks */,
+				CFD4869613ECA3DD00627A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0xfuse hid";
+			productName = "0xfuse hid";
+			productReference = CFD4869813ECA3DD00627A5C /* 0xfuse hid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD4868F13ECA3DD00627A5C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CFD4869213ECA3DD00627A5C /* Build configuration list for PBXProject "0xfuse hid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFD4868D13ECA3DD00627A5C;
+			productRefGroup = CFD4869913ECA3DD00627A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD4869713ECA3DD00627A5C /* 0xfuse hid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD4869613ECA3DD00627A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486A713ECA3DD00627A5C /* InfoPlist.strings in Resources */,
+				CFD486AD13ECA3DD00627A5C /* Credits.rtf in Resources */,
+				CFD486D113ECA40700627A5C /* MainMenu.xib in Resources */,
+				CF29E63613ECAD10000567E3 /* background.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD4869413ECA3DD00627A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD486AA13ECA3DD00627A5C /* main.m in Sources */,
+				CFD486B013ECA3DD00627A5C /* _xfuse_hidAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFD486A513ECA3DD00627A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD486A613ECA3DD00627A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFD486AB13ECA3DD00627A5C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD486AC13ECA3DD00627A5C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD486C813ECA3DE00627A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFD486C913ECA3DE00627A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFD486CB13ECA3DE00627A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "0xfuse hid/0xfuse hid-Prefix.pch";
+				INFOPLIST_FILE = "0xfuse hid/0xfuse hid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFD486CC13ECA3DE00627A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "0xfuse hid/0xfuse hid-Prefix.pch";
+				INFOPLIST_FILE = "0xfuse hid/0xfuse hid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD4869213ECA3DD00627A5C /* Build configuration list for PBXProject "0xfuse hid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD486C813ECA3DE00627A5C /* Debug */,
+				CFD486C913ECA3DE00627A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD486CA13ECA3DE00627A5C /* Build configuration list for PBXNativeTarget "0xfuse hid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD486CB13ECA3DE00627A5C /* Debug */,
+				CFD486CC13ECA3DE00627A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD4868F13ECA3DD00627A5C /* Project object */;
+}
