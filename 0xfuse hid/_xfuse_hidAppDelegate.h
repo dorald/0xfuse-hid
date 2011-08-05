@@ -1,10 +1,10 @@
-//
-//  _xfuse_hidAppDelegate.h
-//  0xfuse hid
-//
-//  Created by 0xfuse on 8/6/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+/*
+ *  _xfuse_hidAppDelegate.h
+ *  0xfuse hid
+ *
+ *  Created by 0xfuse on 8/6/11.
+ *  Copyright 2011 __MyCompanyName__. All rights reserved.
+ */
 
 #import <Cocoa/Cocoa.h>
 
