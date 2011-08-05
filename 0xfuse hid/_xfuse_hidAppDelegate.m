@@ -14,6 +14,7 @@
 #include <IOKit/hid/IOHIDKeys.h>
 #include <unistd.h>
 
+
 _xfuse_hidAppDelegate* app_deletate;
 
 boolean_t connected = false;
